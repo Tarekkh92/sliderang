@@ -17,19 +17,19 @@ body .slick-next {
     left: 20%;
     position: absolute;
     left: 20%;
-    top: 92%;
+    top: 118%;
 }
 body .slick-prev {
   height: 45px;
   width: 40px;
   background: black !important;
- border-radius: 25px;
+  border-radius: 25px;
   z-index: 100;
   position:absolute;
   left: 10%;
   position: absolute;
   
-  top: 92%;
+  top: 118%;
 }
 
 .slick-slider .slick-slide.slick-current{
