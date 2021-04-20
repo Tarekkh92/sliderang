@@ -3,20 +3,37 @@
     width: 88%;
     margin: auto;
     background: gray(14, 13, 13);
-    
+    height:300px;
   }
   
-body .slick-prev, 
+/* body .slick-prev,  */
 body .slick-next {
     height: 45px;
     width: 40px;
     background: black !important;
    border-radius: 25px;
     z-index: 100;
+    position:absolute;
+    left: 20%;
+    position: absolute;
+    left: 20%;
+    top: 92%;
+}
+body .slick-prev {
+  height: 45px;
+  width: 40px;
+  background: black !important;
+ border-radius: 25px;
+  z-index: 100;
+  position:absolute;
+  left: 10%;
+  position: absolute;
+  
+  top: 92%;
 }
 
 .slick-slider .slick-slide.slick-current{
-  transform:scale(0.8);
+  transform:scale(0.9);
   border-bottom: 5px solid orange;
  
 }
@@ -58,4 +75,18 @@ body .slick-next {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.nextArrowBtn{
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  right: 0;
+  color: #BFAFB2;
+}
+.prevArrowBtn{
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 0;
+  color: #BFAFB2;
 }

@@ -26,6 +26,7 @@ export class AppComponent {
   slideConfig = {
     "slidesToShow": 3,
      "slidesToScroll": 1,
+     
      'responsive': [
       {
         'breakpoint': 767,
