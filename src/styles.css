@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+.slick-slider {
+    width: 88%;
+    margin: auto;
+    background: gray(14, 13, 13);
+    
+  }
+  
+body .slick-prev, 
+body .slick-next {
+    height: 45px;
+    width: 40px;
+    background: black !important;
+   border-radius: 25px;
+    z-index: 100;
+}
+
+.slick-slider .slick-slide.slick-current{
+  transform:scale(0.8);
+  border-bottom: 5px solid orange;
+ 
+}
+.slick-slider .slick-slide{
+  transform:scale(0.7);
+ 
+}
+.describe{
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  
+ 
+}
+.card{
+  box-shadow: gray;
+  background-color: #f3f3f3;
+  background-color: #f3f3f3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 97%;
+}
+.slide{
+  background-color:#f3f3f3;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 10px 10px 8px #888888;
+
+  
+}
+.imgcard{
+  /* height: 50px;
+  width: 50px;
+  text-align: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
