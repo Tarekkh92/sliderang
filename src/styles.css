@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .slick-slider {
-    width: 88%;
+    width: 85%;
     margin: auto;
     background: gray(14, 13, 13);
     height:300px;
@@ -16,8 +16,8 @@ body .slick-next {
     position:absolute;
     left: 20%;
     position: absolute;
-    left: 20%;
-    top: 118%;
+    left: 51%;
+    top: 111%;
 }
 body .slick-prev {
   height: 45px;
@@ -26,10 +26,10 @@ body .slick-prev {
   border-radius: 25px;
   z-index: 100;
   position:absolute;
-  left: 10%;
+  left: 40%;
   position: absolute;
   
-  top: 118%;
+  top: 111%;
 }
 
 .slick-slider .slick-slide.slick-current{
@@ -57,7 +57,7 @@ body .slick-prev {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 97%;
+  width: 100%;
 }
 .slide{
   background-color:#f3f3f3;
@@ -74,7 +74,7 @@ body .slick-prev {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100px;
 }
 .nextArrowBtn{
   position: absolute;

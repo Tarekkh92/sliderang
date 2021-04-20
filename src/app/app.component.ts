@@ -20,13 +20,23 @@ export class AppComponent {
     {img: "https://via.placeholder.com/600.png/021/fff",text: "Home Internet"},
     {img: "https://via.placeholder.com/600.png/321/fff",text: "Mobile Internet"},
     {img: "https://via.placeholder.com/600.png/422/fff",text: "Add a phone-line"},
+    {img: "https://via.placeholder.com/600.png/654/fff",text: "Upgrade"},
+    {img: "https://via.placeholder.com/600.png/654/fff",text: "Upgrade"},
+    {img: "https://via.placeholder.com/600.png/09f/fff",text : "Get a Device"},
+    {img: "https://via.placeholder.com/600.png/021/fff",text: "Home Internet"},
+    {img: "https://via.placeholder.com/600.png/321/fff",text: "Mobile Internet"},
+    {img: "https://via.placeholder.com/600.png/422/fff",text: "Add a phone-line"},
+    {img: "https://via.placeholder.com/600.png/654/fff",text: "Upgrade"},
     {img: "https://via.placeholder.com/600.png/654/fff",text: "Upgrade"}
   ];
  
   slideConfig = {
-    "slidesToShow": 3,
-     "slidesToScroll": 1,
-     
+    "slidesToShow": 5,
+     "slidesToScroll": 2,
+    //  "dots": false,
+     "centerMode": true,
+     "centerPadding": '20px',
+     "arrows":true,
      'responsive': [
       {
         'breakpoint': 767,
