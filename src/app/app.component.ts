@@ -14,6 +14,7 @@ export class AppComponent {
   //   {text: "Add a phone-line"},
   //   {text: "Upgrade"}
   // ];
+
   slides = [
     {img: "https://via.placeholder.com/600.png/09f/fff",text : "Get a Device"},
     {img: "https://via.placeholder.com/600.png/021/fff",text: "Home Internet"},
@@ -22,7 +23,18 @@ export class AppComponent {
     {img: "https://via.placeholder.com/600.png/654/fff",text: "Upgrade"}
   ];
  
-  slideConfig = {"slidesToShow": 3, "slidesToScroll": 1};
+  slideConfig = {
+    "slidesToShow": 3,
+     "slidesToScroll": 1,
+     'responsive': [
+      {
+        'breakpoint': 767,
+         'settings': {
+          'slidesToShow': 1
+                }
+              }
+            ]
+  };
   
   // addSlide() {
   //   this.slides.push({img: "http://placehold.it/350x150/777777"})
